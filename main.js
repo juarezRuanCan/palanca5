@@ -193,11 +193,11 @@ window.addEventListener("deviceorientation",function(event) {
         else coefAvance+=15  
     } 
     
-    if(coefGiro>50) coefGiro=50
-    if(coefGiro<-50) coefGiro=-50
+    if(coefGiro>35) coefGiro=35
+    if(coefGiro<-35) coefGiro=-35
     
-    if(coefAvance>50) coefAvance=50
-    if(coefAvance<-50) coefAvance=-50
+    if(coefAvance>30) coefAvance=30
+    if(coefAvance<-30) coefAvance=-30
 
     coefi.innerHTML = "Coeficiente: "+coefGiro+", "+coefAvance
 
